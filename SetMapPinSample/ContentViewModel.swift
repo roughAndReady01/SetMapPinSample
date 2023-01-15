@@ -92,8 +92,10 @@ class ContentViewModel : NSObject, ObservableObject, MKLocalSearchCompleterDeleg
         /// 縮尺(1度=111km , 1/111 = 1kmの縮尺)
         let span:CLLocationDegrees = 1/111
 
-        // 検索結果クリア
-        completions = []
+        DispatchQueue.main.async {
+            // 検索結果クリア
+            self.completions = []
+        }
         
         // 検索条件設定
         let request = MKLocalSearch.Request()
