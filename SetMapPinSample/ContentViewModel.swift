@@ -2,7 +2,7 @@
 //  ContentViewModel.swift
 //  SetMapPinSample
 //
-//  Created by 花形春輝 on 2023/01/15.
+//  Created by 春蔵 on 2023/01/15.
 //
 
 import SwiftUI

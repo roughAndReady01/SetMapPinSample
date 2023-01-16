@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  GetGeocodeSample
 //
-//  Created by 花形春輝 on 2023/01/14.
+//  Created by 春蔵 on 2023/01/14.
 //
 
 import SwiftUI
